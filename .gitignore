@@ -1,4 +1,55 @@
+# R & RStudio
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+.httr-oauth
+*.Rproj.user/
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# OAuth tokens
+.httr-oauth
+
+# R Environment Variables
+.Renviron
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Output files (optional - uncomment if you don't want to track these)
+# *.html
+# *.pdf
+# *.png
+# *.jpg
+
+# Data files with sensitive information (if any)
+# *sensitive*
+# *identifiable*
+
+# Large data files (uncomment if needed)
+# *.sav
+# *.csv
+
+# Package dependencies
+packrat/lib*/
+renv/library/
+
+# Knitr cache
+*_cache/
+/cache/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc

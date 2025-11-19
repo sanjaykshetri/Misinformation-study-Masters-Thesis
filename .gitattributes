@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# R files
+*.R text
+*.Rmd text
+*.Rproj text
+
+# Data files
+*.csv text
+*.sav binary
+*.rds binary
+*.rda binary
+
+# Documents
+*.md text
+*.pdf binary
+*.html binary
+
+# Ensure consistent line endings
+*.R text eol=lf
+*.Rmd text eol=lf

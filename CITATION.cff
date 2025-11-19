@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+authors:
+  - family-names: "Chhetri"
+    given-names: "Sanjay"
+title: "Cognitive Correlates of Vulnerability to Misinformation"
+version: 1.0.0
+date-released: 2025-11-19
+url: "https://github.com/chhetris1/Misinformation-study-Masters-Thesis"
+type: thesis
+thesis-type: "Master's thesis"
+institution:
+  name: "Montclair State University"
+  department: "Psychological Sciences"
+keywords:
+  - misinformation
+  - cognitive reflection
+  - conspiracy mentality
+  - bullshit receptivity
+  - cognitive psychology
+  - decision making
+license: MIT
