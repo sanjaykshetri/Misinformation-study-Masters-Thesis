@@ -103,12 +103,47 @@ install.packages(c("haven", "tidyverse", "lavaan", "psych"))
 
 ## 📊 Key Findings
 
-*(Add your main findings here once you want to share results)*
+### Sample & Reliability
+- **Final N = 194** (after attention check exclusions from initial N = 200)
+- All reliability coefficients exceeded acceptable thresholds:
+  - Bullshit Receptivity Scale (BRS): α = 0.92 [0.91, 0.94]
+  - Conspiracy Mentality Questionnaire (CMQ): α = 0.77 [0.72, 0.82]
+  - All scales demonstrated adequate to excellent internal consistency
 
-- Reliability coefficients for all scales exceeded α = 0.70
-- Sample demographics: [Add summary]
-- Main effects: [Add results]
-- Mediation effects: [Add results]
+### Main Effects: Cognitive Reflection → Vulnerability to Misinformation
+- **Significant positive direct effect**: Higher CRT scores predicted better verification of online information (B = 9.800, p = .031, β = 0.149)
+  - **Interpretation**: Individuals with greater cognitive reflection were more likely to verify online information, suggesting lower vulnerability to misinformation
+
+### Predictor-Mediator Associations
+- **CRT → Bullshit Receptivity**: Significant negative association (B = -0.502, p = .021, β = -0.164)
+  - Higher cognitive reflection associated with lower bullshit receptivity
+- **CRT → Conspiracy Mentality**: Non-significant association (B = -0.148, p = .365, β = -0.065)
+  - Trend in expected direction but failed to reach statistical significance
+
+### Mediation Analysis
+- **Conspiracy Mentality pathway**: Indirect effect NOT significant (p = .399)
+  - Bootstrap 95% CI included zero [-0.699, 3.549]
+- **Bullshit Receptivity pathway**: Indirect effect significant (p = .046)
+  - Bootstrap 95% CI did not include zero [-6.925, -0.824]
+  - **Unexpected finding**: Direction was opposite to hypothesis (positive association between BRS and information verification)
+
+### Alternative Model: Rational Decision Style
+- Similar patterns observed when using self-reported rational decision-making style
+- Stronger effects overall (R² = .142 vs .095 for main model)
+- Rational decision style → BRS: Strong negative association (B = -0.625, p < .001, β = -0.413)
+- Rational decision style → VOI: Significant positive effect (B = 9.302, p < .001, β = 0.287)
+
+### Mediation vs. Direct Effects
+- Both conspiracy mentality and bullshit receptivity showed significant associations with information verification
+- However, evidence for full mediation was mixed
+- Direct effects of cognitive reflection remained significant after accounting for mediators
+
+### Model Fit
+- Main model explained variance: VOI (R² = .095), BRS (R² = .027), CM (R² = .004)
+- Alternative model explained variance: VOI (R² = .142), BRS (R² = .171), CM (R² = .019)
+
+### Key Takeaway
+Cognitive reflection significantly predicts online information verification behaviors, supporting the broader hypothesis that analytical thinking style protects against misinformation vulnerability. The mediation pathways were more complex than hypothesized, suggesting multiple mechanisms may be at play in the relationship between cognitive style and misinformation susceptibility.
 
 ---
 
