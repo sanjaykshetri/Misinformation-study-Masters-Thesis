@@ -1,12 +1,14 @@
 ################################################################################
 # Syntax Sample: Reproducible Survey Data Management and SEM Analysis Pipeline
-# Author: Sanjay Kshetri
+# Author: Sanjay Chhetri
 # Purpose:
 #   This script demonstrates an end-to-end R workflow for importing, cleaning,
 #   recoding, validating, scoring, and analyzing survey-based behavioral research
 #   data. The emphasis is on transparent data management, reproducible coding,
 #   scale construction, attention-check filtering, reliability analysis, and
 #   preparation of analysis-ready datasets.
+# GitHub Repository:
+# https://github.com/sanjaykshetri/Misinformation-study-Masters-Thesis
 ################################################################################
 
 # -----------------------------------------------------------------------------
